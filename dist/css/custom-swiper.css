@@ -1,0 +1,14 @@
+:root {
+  --swiper-theme-color: #f79520;
+}
+
+.swiper-slide {
+  display: grid;
+}
+.swiper-pagination-vertical.swiper-pagination-bullets,
+.swiper-vertical > .swiper-pagination-bullets {
+  top: 85%;
+}
+.swiper-pagination-bullet-active {
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="dist/css/custom-swiper.css" />
+    <link rel="stylesheet" href="scss/style.scss" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./dist/css/custom-swiper.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2b750e53e6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Prizma-WebSite</title>
+  </head>
+  <body>
+    <header>
+      <div id="add" class="container">
+        <h1 class="add add-size">*Free shipping in your first order*</h1>
+        <div class="language language-size">
+          <a href="#" class="lang">EN</a>
+          
+        </div>
+      </div>
+
+      <nav id="navbar" class="container">
+        <div class="head">
+          <a href="products.html" class="search search-size">
+            <img
+              class="svg"
+              src="./img/searchIcon.svg"
+              alt="SVG Image Description"
+            />
+            <input
+              class="search-input"
+              type="search"
+              placeholder="Search a product's name or color number"
+            />
+          </a>
+          <!-- <img class="logo" src="./img/logo.png" alt="Logo Description" /> -->
+          <div class="container">
+            <img
+              id="item_0"
+              class="item"
+              src="./img/Vector (Stroke)1.png"
+              alt="Image"
+            />
+            <img
+              id="item_1"
+              class="item"
+              src="./img/Vector (Stroke)3.png"
+              alt="Image"
+            />
+            <img
+              id="item_2"
+              class="item"
+              src="./img/Vector (Stroke)2.png"
+              alt="Image"
+            />
+            <img id="item_3" class="item" src="./img/PRİZMA4.png" alt="Image" />
+          </div>
+
+          <div class="user">
+            <img
+              class="svg"
+              src="./img/accountIcon.svg"
+              alt="Account Image Description"
+            />
+            <img
+              class="svg"
+              src="./img/favIcon.svg"
+              alt="Fav Image Description"
+            />
+            <img
+              class="svg"
+              src="./img/basketIcon.svg"
+              alt="Basket Image Description"
+            />
+          </div>
+        </div>
+        <ul class="list" type="none">
+          <li>
+            <a href="home.html" class="navbar menu-size">HOME</a>
+          </li>
+          <li>
+            <a href="products.html" class="navbar menu-size">Products</a>
+          </li>
+          <li>
+            <a href="#ideas" class="navbar menu-size">Ideas</a>
+          </li>
+          <li>
+            <a href="#visual" class="navbar menu-size">Visual</a>
+          </li>
+          <li>
+            <a href="about.html" class="navbar menu-size">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+     
+    <section id="ideas" class="container">
+      <div class="content">
+        <h1 class="section-head-size">IDEAS & INSPIRATION</h1>
+        <p class="section-p-size">
+          The perfect color should be enjoyed for years to come. Permanent
+          Prizma paint fully ensures this. Select a room to find products for
+          your project.
+        </p>
+      </div>
+      <div class="cards">
+        <a href="ideas-details.html" data-name="Bathroom's Room" class="idea-card">
+          <img src="./img/hamam.jpg" alt="Bathroom's Room" />
+          <p class="card-size">Bathroom</p>
+        </a>
+        <a href="ideas-details.html" data-name="Kid's Room" class="idea-card">
+          <img src="./img/kidroom.jpg" alt="Kid's Room" />
+          <p class="card-size">Kid's Room</p>
+        </a> 
+        <a href="ideas-details.html" data-name="Bedroom's Room" class="idea-card">
+          <img src="./img/bedroom.jpg" alt="Bedroom's Room" />
+          <p class="card-size">Bedroom</p>
+        </a>
+        <a href="ideas-details.html" data-name="Hall's Room" class="idea-card">
+          <img src="./img/oturma.jpg" alt="Hall's Room" />
+          <p class="card-size">Hallway</p>
+        </a>
+        <a href="ideas-details.html" data-name="Office's Room" class="idea-card">
+          <img src="./img/ofis.jpg" alt="Office's Room" />
+          <p class="card-size">Office</p>
+        </a>
+        <a href="ideas-details.html" data-name="Kitchen's Room" class="idea-card">
+          <img src="./img/metbex.jpg" alt="Kitchen's Room" />
+          <p class="card-size">Kitchen</p>
+        </a>
+      </div> 
+    </section>
+
+    <section id="products" class="container">
+      <div class="content">
+        <h1 class="section-head-size">Products</h1>
+        <a class="viewAll" href="products.html">view all</a>
+      </div>
+      <div class="products"></div>
+    </section>
+
+    <section id="visual" class="container">
+      <div class="content">
+        <h1 class="section-head-size">Visual Paint</h1>
+        <p class="section-p-size">
+          Paint your room pictures digitally with our online paint color
+          visualizer.
+        </p>
+        <button class="btn btn-black">LES GO</button>
+      </div>
+      <div class="card">
+        <img src="./img/vizualBoya.jpg" alt="visual" />
+      </div>
+    </section>
+
+    <section id="help" class="container">
+      <div class="content">
+        <h1 class="section-head-size">need help?</h1>
+        <p class="section-p-size">
+          If you can't find the color or have trouble with the size, we will
+          help you
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="./img/findColor.jpg" alt="findColor" />
+          <p class="card-size">Find Color</p>
+        </div>
+        <div class="card">
+          <img src="./img/calculator.jpg" alt="calculator" />
+          <p class="card-size">Calculator</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="map" class="container">
+      <div class="content">
+        <h1 class="section-head-size">FIND YOUR NEAREST PAINT STORE</h1>
+        <p class="section-p-size">
+          Explore our wide range of paint colors and products at a store near
+          you.
+        </p>
+        <button class="btn btn-black">SEARCH</button>
+      </div>
+      <div class="card">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194473.52377775992!2d49.69014820957142!3d40.39447550801762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2sBaku!5e0!3m2!1sen!2saz!4v1698253847359!5m2!1sen!2saz"
+          width="662"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer1">
+        <div class="content container">
+          <h1 class="footer-head-size">
+            Get the latest Inspiration and tips. Cancel your subscription at any
+            time.
+          </h1>
+          <form  name="submit-to-google-sheet" class="subs-email">
+            <input
+              name="email"
+              type="email"
+              id="submit-to-google-sheet"
+              placeholder="e-mail"
+              alt="email"
+              class="email"
+              required
+            />
+            <button type="submit" class="btn btn-light">SUBSCRIBE</button>
+            <p class="subs">Rejected your subscribtion : (</p>
+          </form>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="cards container">
+          <div class="card">
+            <h1 class="footer-head2-size">FIRM</h1>
+            <p class="footer-p-size">About us</p>
+            <p class="footer-p-size">Corporate responsibility</p>
+            <p class="footer-p-size">Career</p>
+          </div>
+          <div class="card">
+            <h1 class="footer-head2-size">FIRM</h1>
+            <p class="footer-p-size">About us</p>
+            <p class="footer-p-size">Corporate responsibility</p>
+            <p class="footer-p-size">Career</p>
+          </div>
+          <div class="card">
+            <h1 class="footer-head2-size">FIRM</h1>
+            <p class="footer-p-size">About us</p>
+            <p class="footer-p-size">Corporate responsibility</p>
+            <p class="footer-p-size">Career</p>
+          </div>
+          <div class="card">
+            <h1 class="footer-head2-size">FIRM</h1>
+            <p class="footer-p-size">About us</p>
+            <p class="footer-p-size">Corporate responsibility</p>
+            <p class="footer-p-size">Career</p>
+          </div>
+        </div>
+        <div class="address">
+          <p>
+            Bakı ş. Binəqədi rayonu, Binəqədi qəsəbəsi, 112 /Tel.:
+            <span>+994 12 267 22 89 və ya *657</span> / E-poçt:
+            <span>prizmaboya@.az</span>
+          </p>
+        </div>
+        <div class="socials container">
+          <div class="medias">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-behance fa-2x"></i>
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </div>
+          <img class="logo" src="./img/logo.png" alt="Logo Description" />
+          <p>&nbsp; 2021 Prizma. ABLE CNC US Inc All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/swiper.js"></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzJnYq7WPC2raNNZAV2UeAwvCGRyUiPgPJje-yZz_W5iWoEfbwM4v-J6ZMzObdBue28tQ/exec"
+      const form = document.forms["submit-to-google-sheet"]
+      const subs = document.querySelector(".subs")
+      form.addEventListener("submit", (e) => {
+        e.preventDefault()
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            subs.innerHTML = "Thank you for subscribing : )"
+            setTimeout(function () {
+              subs.innerHTML = ""
+            }, 3000)
+            console.log("Success!", response)
+          })
+          .catch((error) => {
+            subs.innerHtml = "Rejected your subscribtion : ("
+            console.error("Error!", error.message)
+          })
+      })
+    </script>
+  </body>
+</html>
