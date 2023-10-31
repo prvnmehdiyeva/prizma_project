@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "stoke": false,
+      "backdrop_path": "sinteticLux.png",
+      "poster_path": "details-img.jpg",
+      "png": "png-shine.png",
+      "genre_ids": [28, 80, 53],
+      "id": 385687,
+      "original_language": "en",
+      "name": "Sintetic Lux",
+      "overview": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
+      "price": 10.55,
+      "vote_average": 7.3,
+      "vote_count": 2184,
+      "release_date": "2023-05-17",
+      "video": false
+    },
+    {
+      "stoke": false,
+      "backdrop_path": "sinteticMat.png",
+      "poster_path": "details-img.jpg",
+      "png": "png-shine.png",
+      "genre_ids": [28, 80, 53],
+      "id": 385687,
+      "original_language": "en",
+      "name": "Sintetic Mat",
+      "overview": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
+      "price": 10.55,
+      "vote_average": 7.3,
+      "vote_count": 2184,
+      "release_date": "2023-05-17",
+      "video": false
+    },
+    {
+      "stoke": false,
+      "backdrop_path": "sinteticShine.jpg",
+      "poster_path": "details-img.jpg",
+      "png": "png-shine.png",
+      "genre_ids": [28, 80, 53],
+      "id": 385687,
+      "original_language": "en",
+      "name": "Sintetic Shine",
+      "overview": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
+      "price": 10.55,
+      "vote_average": 7.3,
+      "vote_count": 2184,
+      "release_date": "2023-05-17",
+      "video": false
+    },
+    {
+      "stoke": false,
+      "backdrop_path": "sinteticSuper.jpg",
+      "poster_path": "details-img.jpg",
+      "png": "png-shine.png",
+      "genre_ids": [28, 80, 53],
+      "id": 385687,
+      "original_language": "en",
+      "name": "Sintetic Super",
+      "overview": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
+      "price": 10.55,
+      "vote_average": 7.3,
+      "vote_count": 2184,
+      "release_date": "2023-05-17",
+      "video": false
+    }
+  ]
+}
