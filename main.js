@@ -326,7 +326,6 @@ function init() {
     case "/":
     case "/home.html":
       showProducts()
-      showIdeasItem()
       break
     case "/ideas-details.html":
       showIdeasItem()
