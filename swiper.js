@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
         div.classList.add("swiper-slide")
 
         div.innerHTML = `
-          <img src="${element.image}" alt="showcase" />
+          <img src="/img/${element.image}" alt="showcase" />
           <div class="content container">
             <h1 class="showcase-p-size">${element.title1}</h1>
             <h1 class="showcase-head-size">${element.title2}</h1>

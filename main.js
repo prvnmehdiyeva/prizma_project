@@ -324,8 +324,9 @@ async function showIdeasItem() {
 function init() {
   switch (global.currentpage) {
     case "/":
-    case "/home.html":
+    case "/index.html":
       showProducts()
+      showProductsDetails()
       break
     case "/ideas-details.html":
       showIdeasItem()
